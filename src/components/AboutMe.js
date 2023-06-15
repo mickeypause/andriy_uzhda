@@ -1,10 +1,11 @@
 import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
+import avatar from '../img/avatar.png'
 
 const greeting = "Я Андрій";
-const bio1 = "A frontend & mobile developer";
-const bio2 = "specialised in React and React Native";
+const bio1 = "Програміст початківець";
+const bio2 = "на Python";
 
 
 const AboutMe = () => (
@@ -16,7 +17,7 @@ const AboutMe = () => (
         id={'aboutme'}
   >
     <VStack gap={'8'}>   
-    <Avatar size='xxl' src=' https://i.pravatar.cc/150?img=7' />
+    <Avatar size='2xl' src={avatar}  alt=''/>
     <Heading size='lg'>{greeting}</Heading>
     <VStack>
         <Heading>{bio1}</Heading>

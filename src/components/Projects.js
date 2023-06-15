@@ -2,33 +2,33 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
-import img1 from '../img/facebook.webp'
-import img2 from '../img/istagram.jpeg'
-import img3 from '../img/mono.png'
-import img4 from '../img/todo.jpeg'
+import img1 from '../img/python.webp'
+import img2 from '../img/git.png'
+import img3 from '../img/linux.jpg'
+import img4 from '../img/oop.png'
 const projects = [
   {
-    title: "React Space",
+    title: "Python",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "Протягом одного року вивчивав Python та освоїв декілька потужних бібліотек. Маю досвід у використанні таких бібліотек, як NumPy та Matplotlib (зокрема pyplot), а також інших корисних інструментів.",
     img: img1,
   },
   {
-    title: "React Infinite Scroll",
+    title: "Git",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+      "Маю розуміння системи контролю версій Git. Знання Git дозволяє ефективно керувати своїми програмними проектами та зберігати їхню історію.",
     img:  img2,
   },
   {
-    title: "Photo Gallery",
+    title: "Linux",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+      "Також маю навички в роботі з операційною системою Linux, зокрема з дистрибутивом Ubuntu. ",
     img: img3,
   },
   {
-    title: "Event planner",
+    title: "ООП",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "Знайомий з об'єктно-орієнтованим програмуванням (ООП). Маю глибоке розуміння концепцій ООП та здатність застосовувати ці концепції в своїх програмах.",
     img: img4,
   },
 ];

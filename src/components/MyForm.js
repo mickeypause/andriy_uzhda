@@ -20,13 +20,13 @@ const MyForm = () => {
         <VStack gap='16px' marginTop={'16px'}>
 
         <Box rounded="md" w="100%">
-        Instagram:
+        Skype: live:.cid.40d2d6c56e120592
        </Box>
         <Box  rounded="md" w="100%">
-        Telegram:
+        Телефон: +380 73 947 33 75
        </Box>
        <Box  rounded="md" w="100%">
-        Email:
+        Email: yuzhda.andrii@student.uzhnu.edu.ua
        </Box>
         </VStack>
       </VStack>
